@@ -12,7 +12,7 @@ categories:
 
 ### Question 1
 
-{% m %}\arg \min \|x\|_1 + \|e\|_1{% em %} subj. to {% m %}y=Ax+e{% em %}
+{% m %} \arg \min \|x\|_1 + \|e\|_1 {% em %} subj. to {% m %} y=Ax+e {% em %}
 
 + least entropy & error correction
 + 标准 linear programming。
@@ -20,14 +20,14 @@ categories:
 
 ### Question 2
 
-{% m %}\arg\min \|x\|_2 + \|e\|_1{% em %} subj. to {% m %}y=Ax+e{% em %}
+{% m %} \arg\min \|x\|_2 + \|e\|_1 {% em %} subj. to {% m %} y=Ax+e {% em %}
 
 + least energy & error correction
 + 鲁棒的 CRC
 
 ### Question 3
 
-{% m %}\arg\min \|x\|_1 + \|e\|_2{% em %} subj. to {% m %}y=Ax+e{% em %}
+{% m %} \arg\min \|x\|_1 + \|e\|_2 {% em %} subj. to {% m %} y=Ax+e {% em %}
 
 + sparse regression with noise - lasso
 + 标准 lasso 问题
@@ -35,7 +35,7 @@ categories:
 
 ### Question 4
 
-{% m %}\arg\min \|x\|_2 + \|e\|_2{% em %} subj. to {% m %}y=Ax+e{% em %}
+{% m %} \arg\min \|x\|_2 + \|e\|_2 {% em %} subj. to {% m %} y=Ax+e {% em %}
 
 + least energy with noise
 + 极小最小二乘解，可求广义逆。
