@@ -1,7 +1,9 @@
-baseurl: http://www.quxiaofeng.me/optimizations.ml
+url: http://www.quxiaofeng.me/
+baseurl: /optimizations.ml
 title: Tufte
 subtitle: Content-centric blogging
 author: QU Xiaofeng
+email: xiaofeng.qu.hk@ieee.org
 simple_search: http://google.com/search
 description: A Jekyll theme for content-rich sites
 name: tufte
