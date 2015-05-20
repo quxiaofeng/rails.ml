@@ -35,7 +35,7 @@ categories:
 
 ### Question 4
 
-{% m %}$\arg\min \|x\|_2 + \|e\|_2{% em %} subj. to {% m %}y=Ax+e{% em %}
+{% m %}\arg\min \|x\|_2 + \|e\|_2{% em %} subj. to {% m %}y=Ax+e{% em %}
 
 + least energy with noise
 + 极小最小二乘解，可求广义逆。
