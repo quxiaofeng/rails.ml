@@ -12,22 +12,22 @@ categories: 优化 稀疏
 
 ### Question 1
 
-{% math %}\arg\min \|x\|_1\|e\|_1{% endmath %} subj. to {% math %}y=Ax+e{% endmath %}
+{% m %}\arg \min \|x\|_1 + \|e\|_1{% em %} subj. to {% m %}y=Ax+e{% em %}
 
 + least entropy & error correction
 + 标准 linear programming。
-+ 鲁棒的 SRC{% sidenote 1  参见 [http://research.microsoft.com/pubs/132810/PAMI-Face.pdf](http://research.microsoft.com/pubs/132810/PAMI-Face.pdf) and [Face Recognition via Sparse Representation](http://perception.csl.illinois.edu/recognition/Home.html) %}。使用单位矩阵作为遮挡字典，用标准形式求解。
++ 鲁棒的 SRC{% sidenote 1  '参见 [http://research.microsoft.com/pubs/132810/PAMI-Face.pdf](http://research.microsoft.com/pubs/132810/PAMI-Face.pdf) and [Face Recognition via Sparse Representation](http://perception.csl.illinois.edu/recognition/Home.html)' %}。使用单位矩阵作为遮挡字典，用标准形式求解。
 
 ### Question 2
 
-{% math %}\arg\min \|x\|_2\|e\|_1{% endmath %} subj. to {% math %}y=Ax+e{% endmath %}
+{% m %}\arg\min \|x\|_2 + \|e\|_1{% em %} subj. to {% m %}y=Ax+e{% em %}
 
 + least energy & error correction
 + 鲁棒的 CRC
 
 ### Question 3
 
-{% math %}\arg\min \|x\|_1\|e\|_2{% endmath %} subj. to {% math %}y=Ax+e{% endmath %}
+{% m %}\arg\min \|x\|_1 + \|e\|_2{% em %} subj. to {% m %}y=Ax+e{% em %}
 
 + sparse regression with noise - lasso
 + 标准 lasso 问题
@@ -35,7 +35,7 @@ categories: 优化 稀疏
 
 ### Question 4
 
-{% math %}$\arg\min \|x\|_2\|e\|_2{% endmath %} subj. to {% math %}y=Ax+e{% endmath %}
+{% m %}$\arg\min \|x\|_2 + \|e\|_2{% em %} subj. to {% m %}y=Ax+e{% em %}
 
 + least energy with noise
 + 极小最小二乘解，可求广义逆。
