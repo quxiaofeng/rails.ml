@@ -2,6 +2,7 @@ url: http://www.optimizations.ml
 baseurl:
 title: OPTIMIZATIONS.ML
 subtitle: Optimization Methods for Machine Learning
+logo: badge_op_ml.png
 author: QU Xiaofeng
 email: xiaofeng.qu.hk@ieee.org
 simple_search: http://google.com/search
