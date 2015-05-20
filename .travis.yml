@@ -25,7 +25,7 @@ branches:
   - master
 
 before_install:
-- gem install jekyll
+- gem install rouge
 
 install:
 - gem install jekyll
