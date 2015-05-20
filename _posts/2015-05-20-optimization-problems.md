@@ -2,7 +2,7 @@
 layout: post
 title:  "优化问题"
 date:   2015-05-20 22:53:20
-categories: 优化 稀疏
+categories:
 ---
 ## 优化问题
 
