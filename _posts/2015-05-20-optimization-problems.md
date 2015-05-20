@@ -8,6 +8,8 @@ categories: 优化 稀疏
 
 ###  可以用 ALM, LP 和 IRLS 求解的四种常见优化问题
 
+<!--more-->
+
 ### Question 1
 
 {% math %}\arg\min \|x\|_1\|e\|_1{% endmath %} subj. to {% math %}y=Ax+e{% endmath %}
