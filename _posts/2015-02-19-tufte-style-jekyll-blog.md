@@ -76,7 +76,7 @@ If you need a full-width image or figure, another custom liquid tag is available
 
 Yields this:
 
-{% fullwidth /assets/img/figure2.png 'Full width figure' %}
+{% fullwidth "{{"/assets/img/figure2.png" | prepend: site.baseurl }}" 'Full width figure' %}
 
 ```qplot(wt, mpg, data = mtcars, colour = factor(cyl) )```
 
