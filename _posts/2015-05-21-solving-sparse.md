@@ -10,6 +10,9 @@ categories:
 + 用 alternating minimization (ADM)
 + Primal-dual 算法？？
 + Soft threshold ？？
+
+<!--more-->
+
 + 字典学习 K-SVD
 + 看完 K-SVD 之后，图像分类: Discriminative K-SVD for Dictionary Learning in Face Recognition (CVPR)，Label Consistent K-SVD Learning a Discriminative Dictionary for Recognition （TPAMI）；结构化稀疏: Robust Classiﬁcation using Structured Sparse Representation （CVPR）；低秩: Learning Structured Low-rank Representations for Image Classiﬁcation （CVPR）。
 + 关于稀疏表示的已有算法的分析: A survey of sparse representation: algorithms and applications
