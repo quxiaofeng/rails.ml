@@ -1,14 +1,11 @@
 ---
 layout: post
-title:  "优化问题"
+title:  "几个基本优化问题"
 date:   2015-05-20 22:53:20
 categories:
 ---
-## 优化问题
 
-###  可以用 ALM, LP 和 IRLS 求解的四种常见优化问题
-
-<!--more-->
+##  可以用 ALM, LP 和 IRLS 求解的四种基本优化问题
 
 ### Question 1
 
@@ -18,6 +15,8 @@ Question 1: {% m %} \arg \min \|x\|_1 + \|e\|_1 {% em %} subj. to {% m %} y=Ax+e
 
 + 标准 linear programming。
 + 鲁棒的 SRC{% sidenote 1  '参见 [http://research.microsoft.com/pubs/132810/PAMI-Face.pdf](http://research.microsoft.com/pubs/132810/PAMI-Face.pdf) and [Face Recognition via Sparse Representation](http://perception.csl.illinois.edu/recognition/Home.html)' %}。使用单位矩阵作为遮挡字典，用标准形式求解。
+
+<!--more-->
 
 ### Question 2
 
