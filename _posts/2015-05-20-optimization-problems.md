@@ -14,7 +14,7 @@ categories: 优化 稀疏
 
 + least entropy & error correction
 + 标准 linear programming。
-+ 鲁棒的 SRC。使用单位矩阵作为遮挡字典，用标准形式求解。
++ 鲁棒的 SRC{% sidenote 1  参见 [http://research.microsoft.com/pubs/132810/PAMI-Face.pdf](http://research.microsoft.com/pubs/132810/PAMI-Face.pdf) and [Face Recognition via Sparse Representation](http://perception.csl.illinois.edu/recognition/Home.html) %}。使用单位矩阵作为遮挡字典，用标准形式求解。
 
 ### Question 2
 
