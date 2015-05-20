@@ -25,5 +25,5 @@ categories:
 + An ADMM Solution to the Sparse Coding Problem: {% sidenote 2 '[http://stanford.edu/class/ee364b/projects/2011projects/reports/bhaskar_zou.pdf](http://stanford.edu/class/ee364b/projects/2011projects/reports/bhaskar_zou.pdf)' %}
 + [http://www.eecs.berkeley.edu/~yang/software/l1benchmark/](http://www.eecs.berkeley.edu/~yang/software/l1benchmark/)
 + 这篇文章 {% sidenote 3 '[http://web.stanford.edu/~boyd/papers/prox_algs.html](http://web.stanford.edu/~boyd/papers/prox_algs.html)' %} 从 proximal operator 角度讲解，更加深入一点。
-+ 南京大学何炳生老师的课程 {% sidenote 4 '[http://math.nju.edu.cn/~hebma/](http://math.nju.edu.cn/~hebma/)'，讲得比较深入。
++ 南京大学何炳生老师的课程 {% sidenote 4 '[http://math.nju.edu.cn/~hebma/](http://math.nju.edu.cn/~hebma/)' %}，讲得比较深入。
 + biconvex 问题，基本是个保证收敛的算法效果就还行。
