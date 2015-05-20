@@ -2,15 +2,7 @@
   icon: icon-facebook
 - link: //www.facebook.com/quxiaofeng
   icon: icon-twitter
-- link: //www.weibo.com/quxiaofeng
-  icon: icon-icomoon
-# - link: //plus.google.com/+googlePlusName
-#   icon: icon-googleplus
 - link: //github.com/quxiaofeng
   icon: icon-github
-- link: //www.instagram.com/quxiaofeng
-  icon: icon-instagram
-- link: //www.flickr.com/photos/quxiaofeng
-  icon: icon-flickr
 - link: /feed
   icon: icon-feed
