@@ -34,7 +34,6 @@ install:
 before_script:
 - git config --global user.name 'QU Xiaofeng'
 - git config --global user.email 'xiaofeng.qu.hk@ieee.org'
-- gem install jekyll
 
 script:
 - jekyll build
