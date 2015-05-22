@@ -5,7 +5,7 @@ date:   2015-05-20 22:53:20
 categories:
 ---
 
-##  可以用 ALM, LP 和 IRLS 求解的四种基本优化问题
+##  可以用 ALM{% sidenote 1 'Argumented Lagrange Multiplier 增广拉格朗日乘子法' %}, LP{% sidenote 2 'Linear Programming 线性规划' %} 和 IRLS {% sidenote 3 '[Iteratively Reweighted Least Squares](http://www.robotics.stanford.edu/~ang/papers/aaai06-efficientL1logisticregression.pdf)' %} 求解的四种基本优化问题
 
 ### Question 1
 
@@ -14,7 +14,7 @@ categories:
 Question 1: {% m %} \arg \min \|x\|_1 + \|e\|_1 {% em %} subj. to {% m %} y=Ax+e {% em %}
 
 + {% newthought '标准 linear programming。'%}
-+ 鲁棒的 *SRC*{% sidenote 1  '参见 [http://research.microsoft.com/pubs/132810/PAMI-Face.pdf](http://research.microsoft.com/pubs/132810/PAMI-Face.pdf) and [Face Recognition via Sparse Representation](http://perception.csl.illinois.edu/recognition/Home.html)' %}。使用单位矩阵作为遮挡字典，用标准形式求解。
++ 鲁棒的 *SRC*{% sidenote 3  '参见 [http://research.microsoft.com/pubs/132810/PAMI-Face.pdf](http://research.microsoft.com/pubs/132810/PAMI-Face.pdf) and [Face Recognition via Sparse Representation](http://perception.csl.illinois.edu/recognition/Home.html)' %}。使用单位矩阵作为遮挡字典，用标准形式求解。
 
 <!--more-->
 
