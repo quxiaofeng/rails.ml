@@ -1,6 +1,6 @@
 url: http://www.optimizations.ml
 baseurl:
-title: OPTIMIZATIONS.ML
+title: OPTIMIZATIONS for Machine Learning
 subtitle: Optimization Methods for Machine Learning
 logo: badge_op_ml.png
 author: QU Xiaofeng
@@ -23,11 +23,11 @@ post:
 page:
   template: _page.txt
   extension: md
-editor: gvim
+editor: subl
 git:
   branch: master
 transfer:
   command: rsync
   settings: -av
   source: _site/
-  destination: ~/Git/clayh53.github.com/
+  destination: 
