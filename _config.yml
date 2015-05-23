@@ -1,20 +1,20 @@
-url: http://www.optimizations.ml
+url: http://www.rails.ml
 baseurl:
-title: OPTIMIZATIONS for Machine Learning
-subtitle: Optimization Methods for Machine Learning
+title: Rails
+subtitle: Rails
 logo: badge_op_ml.png
 author: QU Xiaofeng
 email: xiaofeng.qu.hk@ieee.org
 simple_search: http://google.com/search
-description: A little blog collecting optimization methods in machine learning field
-name: OPTIMIZATIONS.ML
+description: A little blog collecting Rails
+name: RAILS
 markdown: Kramdown
 kramdown:
   input: GFM
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 highlighter: rouge
 permalink: pretty
-timezone: America/New_York
+timezone: Asia/Hong_Kong
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 exclude: ['.gitignore','UploadToGithub.Rakefile','LICENSE','Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
 post:
@@ -30,4 +30,4 @@ transfer:
   command: rsync
   settings: -av
   source: _site/
-  destination: 
+  destination:
